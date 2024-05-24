@@ -12,7 +12,7 @@
 
 @keyframes bg {
   0% { background-position: 0 0; }
-  100% { background-position: {$bgWidth} ; }
+  100% { background-position: var(--bg-width) var(--bg-width); }
 }
 
 
@@ -773,4 +773,3 @@ label[for="type your message"]{
   font-size: 1.5rem;
   color: var(--second-bg-color);
 }
-
